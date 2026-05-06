@@ -130,10 +130,12 @@ Churned customers have **higher average monthly charges** — high billing = hig
 
 ## 📈 Model Results
 
-| Model | Accuracy | F1-Score |
-|---|---|---|
-| Logistic Regression | ~80% | ~0.76 |
-| **Random Forest** | **~82%** | **~0.78** ✅ |
+| Metric    | Logistic Regression | Random Forest |
+|-----------|--------------------:|-------------:|
+| Accuracy  | ~80%                | 86%          |
+| Precision | ~74%                | 73%          |
+| Recall    | ~58%                | 65%          |
+| F1-Score  | ~65%                | 69%          |
 
 > Random Forest outperformed Logistic Regression on both Accuracy and F1-score.
 
